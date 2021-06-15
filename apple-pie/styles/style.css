@@ -1,0 +1,101 @@
+            @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                font-family: "Open Sans";
+                background-color: black;
+            }
+            
+            .container {
+                background-color: white;
+                margin-left: 300px;
+                margin-right: 320px;
+                letter-spacing: 0.4px;
+                line-height: 1.5em;
+                font-weight: 200;
+                font-size: 15px;
+            }
+            
+            h1 {
+                font-family: "Open Sans";
+                font-size: 54px;
+                font-weight: 400;
+                text-align: center;
+                color: white;
+            }
+            
+            h2 {
+                font-family: "Open Sans";
+                font-size: 18px;
+                font-weight: 200;
+                text-align: left;
+            }
+            
+            h3 {
+                font-family: "Open Sans";
+                font-size: 19px;
+                font-weight: 400;
+                text-align: left;
+                line-height: 1em;
+            }
+            
+            h4 {
+                font-family: "Open Sans";
+                font-size: 15px;
+                font-weight: 200;
+                text-align: left;
+            }
+            
+            #header {
+                background-image: url("./apple-pie.jpg");
+                background-color: white;
+                text-align: center;
+                margin-bottom: auto;
+                border-bottom-color: gray;
+                border-bottom-style: solid;
+                background-position-x: center;
+                background-position-y: 0;
+            }
+            
+            .applepie {
+                margin-top: -60px;
+                width: 805px;
+                height: 650px;
+            }
+            
+            #Presentation {
+                margin-top: 60 px;
+                border-bottom-color: gray;
+                border-bottom-style: solid;
+            }
+            
+            #Ingredients {
+                blackground-color: red;
+                border-bottom-color: gray;
+                border-bottom-style: solid;
+            }
+            
+            .ingredientslist li {
+                list-style-type: none;
+            }
+            
+            .receiptinfo {
+                width: 300px;
+                height: 45px;
+                margin: auto;
+            }
+            
+            .imgcooking {
+                width: 300px;
+                height: 65px;
+                margin: auto;
+                margin-left: 250px;
+            }
+            
+            #Directions {
+                margin: auto;
+            }
